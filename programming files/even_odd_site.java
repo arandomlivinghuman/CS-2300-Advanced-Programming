@@ -11,7 +11,7 @@ public class even_odd_site {
 
         // Iterate through integers 1 : 50
         for (int i = 1; i <= 50; i++) {
-            if (i % 2 == 0) // i is an even integer {
+            if (i % 5 == 0) // i is an even integer {
                 file.write("<tr><td>" + i + "</td><td></td></tr>\n");
             }
             else // i is not an even integer {
